@@ -5,14 +5,14 @@ require_relative '../../lib/0001_two_sum'
 RSpec.describe '#two_sum' do
   subject { two_sum(nums, target) }
 
-  context 'when nums [2, 7, 11, 15] and target 9' do
+  context 'when nums = [2, 7, 11, 15] and target = 9' do
     let(:nums) { [2, 7, 11, 15] }
     let(:target) { 9 }
 
     it { is_expected.to match([0, 1]) }
   end
 
-  context 'when nums [3, 2, 4] and target 6' do
+  context 'when nums = [3, 2, 4] and target = 6' do
     let(:nums) { [3, 2, 4] }
     let(:target) { 6 }
 

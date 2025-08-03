@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Given an array of integers nums and an integer target,
 # return indices of the two numbers such that they add up to target.
 
@@ -19,6 +21,8 @@
 # Input: nums = [3,3], target = 6
 # Output: [0,1]
 
+# Runtime 3ms, Beats 57.05%
+# Memory 212.31 MB, Beats 50.08%
 def two_sum(nums, target)
   hash = {}
   nums.each_with_index do |num, idx|
