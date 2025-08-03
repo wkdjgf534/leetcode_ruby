@@ -23,8 +23,6 @@ def two_sum(nums, target)
   hash = {}
   nums.each_with_index do |num, idx|
     val = target - num
-    puts hash
-    puts hash[val]
     return [hash[val], idx] if hash.key?(val)
 
     hash[num] = idx
