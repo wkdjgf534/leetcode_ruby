@@ -2,7 +2,7 @@
 
 require_relative '../../lib/0009_palindrome_number'
 
-RSpec.describe '#palindrome_number' do
+RSpec.describe '#palindrome?' do
   subject { palindrome?(num) }
 
   context 'when num = 121' do
